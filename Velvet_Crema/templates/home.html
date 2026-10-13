@@ -10,7 +10,26 @@
     </div>
 </section>
 <h2>Customer Favorites</h2>
-<img class="hero-image" src="{% static 'images/Capuccino.jpg' %}" alt="Coffee">
+<table class="favorites-table">
+  <tr>
+    <td>
+      <img class="featured-image" src="{% static 'images/Capuccino.jpg' %}" alt="Cappuccino">
+      <h3>Cappuccino</h3>
+    </td>
+    <td>
+      <img class="featured-image" src="{% static 'images/Americano.jpg' %}" alt="Americano">
+      <h3>Americano</h3>
+    </td>
+    <td>
+      <img class="featured-image" src="{% static 'images/Cheesecake_Slice.jpg' %}" alt="Cheesecake">
+      <h3>Cheesecake Slice</h3>
+    </td>
+    <td>
+      <img class="featured-image" src="{% static 'images/Butter_Croissant.jpg' %}" alt="Croissant">
+      <h3>Butter Croissant</h3>
+    </td>
+  </tr>
+</table>
 <div class="cards">
   {% for item in featured %}
   <div class="card">

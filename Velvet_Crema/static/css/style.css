@@ -5,7 +5,25 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+.favorites-table {
+    border-collapse: separate;
+    border-spacing: 15px;     /* may espasyo sa pagitan ng bawat box */
+}
 
+.favorites-table td {
+    background: #fffaf5;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.featured-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
 nav {
   margin: 0;
   font-family: Arial, sans-serif;
