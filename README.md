@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Velvet Crema
 A five-page coffee shop website built with Django templates.
 ## Project Overview- **Problem it solves:** Customers have no single place to see the shop's menu, photos and contact details.- **Target users:** Students, workers and coffee lovers.
@@ -19,3 +20,6 @@ Then open http://127.0.0.1:8000
 ## Acknowledgements
 This project was built with help from an AI assistant (Claude by Anthropic) for guidance and
 sample code. All members reviewed and understand the code
+=======
+# Django_FinalProject
+>>>>>>> ef8915814347a92c0c302bd55cddb3a646076eee
