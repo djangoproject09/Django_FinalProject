@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Velvet Crema
 A five-page coffee shop website built with Django templates.
 ## Project Overview- **Problem it solves:** Customers have no single place to see the shop's menu, photos and contact details.- **Target users:** Students, workers and coffee lovers.
