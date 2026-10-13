@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home | {{ title }}{% endblock %}
+{% block content %}
+<section class="hero">
+  <div>
+    <h1>Coffee at the corner of your day.</h1>
+    <p class="lead">Freshly brewed coffee, pastries, made a few steps from where you live.</p>
+    <a href="{% url 'menu' %}" class="btn">See the Menu</a>
+    </div>
+</section>
+<h2>Customer Favorites</h2>
+<img class="hero-image" src="{% static 'images/Capuccino.jpg' %}" alt="Coffee">
+<div class="cards">
+  {% for item in featured %}
+  <div class="card">
+    <h3>{{ item.name }}</h3>
+    <p class="price">&#8369;{{ item.price }}</p>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

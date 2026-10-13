@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Gallery | Velvet Crema{% endblock %}
+{% block content %}
+<h1>Gallery</h1>
+<div class="gallery">
+  <img src="{% static 'images/Americano.jpg' %}" alt="Coffee">
+  <img src="{% static 'images/Butter_Croissant.jpg' %}" alt="Pastries">
+  <img src="{% static 'images/Caffe_Latte.jpg' %}" alt="Caffe Latte">
+</div>
+{% endblock %}

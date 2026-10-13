@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Contact | {{ shop.name }}{% endblock %}
+{% block content %}
+<h1>Contact Us</h1>
+<p>{{ shop.tagline }}</p>
+
+<ul>
+  <li><strong>Address:</strong> {{ shop.address }}</li>
+  <li><strong>Phone:</strong> {{ shop.phone }}</li>
+  <li><strong>Hours:</strong> {{ shop.hours }}</li>
+</ul>
+{% endblock %}
