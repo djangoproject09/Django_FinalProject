@@ -5,7 +5,7 @@ A five-page coffee shop website built with Django templates.
 ## Setup Instructions
 ```
 git clone https://github.com/djangoproject09/Django_FinalProject.git
-cd Final_DjangoProject 
+cd Django_FinalProject
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirments.txt
