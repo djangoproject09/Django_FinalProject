@@ -3,7 +3,7 @@ from django.shortcuts import render
 SHOP = {
     'name': 'Velvet Crema',
     'tagline': 'Smooth coffee. Warm corners. Fresh pastries.',
-    'address': 'Your shop address here',
+    'address': 'brgy. pitipiwpiw, purok d minahal, d magiging kayo street',
     'phone': '0900 000 0000',
     'hours': 'Daily, 8:00 AM to 8:00 PM',
 }
