@@ -4,7 +4,7 @@ A five-page coffee shop website built with Django templates.
 ## Features- 5 pages: Home, Menu, About, Gallery, Contact- Template inheritance with `base.html` (`{% block %}` and `{% extends %}`)- Navbar and footer using `{% include %}`- Navigation using `{% url %}` named routes- CSS and images using `{% static %}`- Responsive design- Every page is one click away from the navbar (3-click rule)
 ## Setup Instructions
 ```
-git clone https://github.com/djangoproject09/Final_DjangoProject
+git clone https://github.com/djangoproject09/Django_FinalProject.git
 cd Final_DjangoProject 
 python -m venv venv
 venv\Scripts\activate
