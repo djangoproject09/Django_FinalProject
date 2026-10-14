@@ -8,7 +8,7 @@ git clone https://github.com/djangoproject09/Final_DjangoProject
 cd Final_DjangoProject 
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirements.txt
+pip install -r requirments.txt
 python manage.py migrate
 python manage.py runserver
 ```
