@@ -7,7 +7,7 @@ body {
 }
 .favorites-table {
     border-collapse: separate;
-    border-spacing: 15px;     /* may espasyo sa pagitan ng bawat box */
+    border-spacing: 15px;    
 }
 
 .favorites-table td {
