@@ -11,7 +11,7 @@ body {
 }
 
 .favorites-table td {
-    background: #fffaf5;
+    background: lightgrey;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
@@ -23,6 +23,32 @@ body {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+    .contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.contact-info li {
+  font-size: 1.4rem;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  background: rgba(255, 250, 243, 0.92);
+  border-left: 6px solid #4b2e1e;
+  border-radius: 10px;
+  min-height: 80px;
+}
+
+.contact-info strong {
+  display: block;
+  font-size: 1rem;
+  color: #6f4e37;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+
 }
 nav {
   margin: 0;
