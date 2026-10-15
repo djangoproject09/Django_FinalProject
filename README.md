@@ -8,7 +8,7 @@ git clone https://github.com/djangoproject09/Django_FinalProject.git
 cd Django_FinalProject
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirments.txt
+pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 ```
@@ -21,4 +21,3 @@ This project was built with help from an AI assistant (Claude by Anthropic) for 
 sample code. All members reviewed and understand the code
 =======
 # Django_FinalProject
->>>>>>> ef8915814347a92c0c302bd55cddb3a646076eee
