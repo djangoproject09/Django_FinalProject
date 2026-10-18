@@ -48,8 +48,19 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 6px;
-
 }
+
+  .btn { 
+    display: inline-block;
+    padding: 10px 26px; 
+    background: #6f4e37; 
+    color: #ebe5e2;
+    text-decoration: none; 
+    font-weight: bold; 
+    border-radius: 30px; 
+  }
+
+
 nav {
   margin: 0;
   font-family: Arial, sans-serif;
